@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 
 
-openai.api_key = st.secrets["auth_key"]
+openai.api_key = st.secrets[auth_key]
 
 def load_file():
     text = ""
