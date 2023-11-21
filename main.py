@@ -42,7 +42,7 @@ def main():
 
     #Header
     st.title("Code Generator")
-    st.warning("This app using openai's gpt 3.5 ")
+    st.warning("Our app empowers you to generate clean, optimized code snippets with just a few clicks ")
     st.divider()
     
     #check if the user want to upload a text or pdf file
